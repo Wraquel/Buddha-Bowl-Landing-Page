@@ -5,114 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Budha Bowl</title>
-    <style>
-      .conteiner {
-        padding-top: 30px;
-      }
-      h1 {
-        display: inline;
-        text-align: center;
-        font-style: italic;
-        font-size: 45px;
-        color: #52b176;
-      }
-      h2 {
-        text-align: center;
-        font-style: italic;
-        font-size: 22px;
-        opacity: 0.8;
-        padding-top: 0px;
-      }
-      div {
-        display: block;
-        text-align: center;
-      }
-      .imgbudhab {
-        border-radius: 10px;
-        margin: 20px 0;
-      }
-
-      .text {
-        line-height: 1.4;
-        font-size: 18px;
-        text-align: justify;
-        display: block;
-        margin: auto;
-        padding: 0 75px;
-      }
-      .columtext {
-        display: flex;
-        column-gap: 15px;
-        padding-bottom: 20px;
-      }
-      .boxingredientsone {
-        background-color: #fffd71;
-        flex: 50%;
-        border-radius: 15px;
-        font-style: oblique;
-        margin-left: 15%;
-      }
-      .boxingredientstwo {
-        background-color: #fffd71;
-        flex: 50%;
-        border-radius: 15px;
-        font-style: oblique;
-        margin-right: 15%;
-      }
-      .lineideas {
-        margin: 20px 0;
-      }
-      .imgideas {
-        border-radius: 10px;
-      }
-      p {
-        font-size: 18px;
-      }
-      .reference {
-        display: block;
-        margin-bottom: 20px;
-        color: blue;
-        transition: all 200ms ease-in-out;
-        font-size: 18px;
-        margin: 20px 45% 20px;
-      }
-      a {
-        padding: auto;
-      }
-      .reference:hover {
-        text-decoration: none;
-      }
-      .call {
-        font-size: 20px;
-        font-style: italic;
-      }
-      button {
-        display: block;
-        margin: 0px auto 30px auto;
-        opacity: 0.9;
-        padding: 17px 25px;
-        background: rgb(229, 133, 152);
-        border-radius: 30px;
-        font-size: 16px;
-        font-style: italic;
-        border: 1px solid rgb(229, 133, 152);
-        font-weight: none;
-        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
-        transition: all 200ms ease-in-out;
-      }
-      button:hover {
-        cursor: pointer;
-        background: none;
-      }
-      span {
-        font-family: monospace;
-        font-size: 13px;
-        line-height: 50px;
-      }
-      .linkedin {
-        vertical-align: middle;
-      }
-    </style>
+    <link rel="stylesheet" href="/styles/styles.css" />
   </head>
   <body>
     <div class="conteiner">
@@ -224,14 +117,5 @@
         />
       </a>
     </div>
-    <script>
-      function contact() {
-        let name = prompt("What is your name?");
-        let email = prompt("What is your email?");
-        alert("Thank you " + name + "! We'll be in touch by email!");
-      }
-      let button = document.querySelector("button");
-      button.addEventListener("click", contact);
-    </script>
   </body>
 </html>
